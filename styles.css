@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Grand+Hotel');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Comfortaa, sans-serif;
+  color: #525252;
+  outline: none;
+}
+
+h1 {
+  font-family: 'Grand Hotel', cursive;
+  font-size: 100px;
+  text-shadow: 5px 1px 1px #00fff3;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+hr {
+  margin: 10px auto;
+  position: relative;
+  bottom: 40px;
+}
+
+hr:nth-child(2) {
+  width: 60%;
+}
+
+hr:nth-child(3) {
+  width: 100%;
+}
+
+hr:nth-child(4) {
+  width: 80%;
+}
+
+#search-area, #search-area section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+#search-area {
+  margin-bottom: 40px;
+}
+
+#search-bar, #search-bar:focus {
+  height: 40px;
+  box-shadow: 1px 1px 10px 0px #d8d8d8;
+  border: 1px solid #9b9b9b;
+  width: 80%;
+  max-width: 400px;
+  padding: 0px 10px;
+}
+
+#search-btn, #search-btn:focus {
+  padding: 9px 15px;
+  background-color: #fff;
+  border: 1px solid #00fff3;
+  box-shadow: 1px 1px 10px 0px #d8d8d8;
+  font-size: 18px;
+}
+
+#search-btn:hover {
+  background-color: #00fff3;
+}
